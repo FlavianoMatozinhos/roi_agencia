@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="{{ asset('font-awesome.css') }}" />
     <link rel="stylesheet" href="{{ asset('bootstrap.css') }}" />
     <link rel="stylesheet" href="{{ asset('styles.css') }}" />
-    <link rel="icon" href="{{ asset('images/favicon.png') }} " />
+    <link rel="icon" href="{{ asset('images/roi.png') }} " />
     <title>Roi Agencia</title>
   </head>
   <body>
@@ -37,7 +37,7 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#details">Sobre</a>
@@ -357,6 +357,11 @@
         </div>
       </div>
     </footer>
+
+    <div id="whatsapp-icon" onclick="window.location.href='https://api.whatsapp.com/send?phone=031975752849'">
+        <!-- You can replace the icon below with your own WhatsApp icon or an image -->
+        <img src="{{ asset('images/whatsapp.png') }}" alt="">
+    </div>
 
     <button id="to-top" class="to-top-btn">
       <img src="{{asset('images/up-arrow.png')}}" alt="" />

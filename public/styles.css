@@ -50,6 +50,7 @@
 }
 
 .to-top-btn {
+  margin-bottom: 5%;
   position: fixed;
   z-index: 20;
   bottom: 20px;

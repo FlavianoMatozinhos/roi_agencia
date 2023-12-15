@@ -4469,6 +4469,37 @@ footer {
     margin: 2% 5%;
 }
 
+#valor {
+    text-decoration: line-through;  
+}
+
+a.nav-link::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #c538c3;
+    transition: width 0.5s ease;
+}
+
+a.nav-link:hover::after {
+    width: 100%;
+}
+
+#whatsapp-icon img{
+    width: 5%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
 .card {
   --bs-card-spacer-y: 1rem;
   --bs-card-spacer-x: 1rem;

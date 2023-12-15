@@ -46,3 +46,22 @@ function incrementStats() {
 document.addEventListener('DOMContentLoaded', userScroll);
 document.addEventListener('DOMContentLoaded', incrementStats);
 document.querySelector('#to-top').addEventListener('click', scrollToTop);
+
+document.addEventListener("DOMContentLoaded", function () {
+    const boxes = document.querySelectorAll(".box");
+
+    const observer = new IntersectionObserver(
+        (entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("show");
+                }
+            });
+        },
+        { threshold: 0.5 }
+    ); // Ajuste o valor do threshold conforme necessário
+
+    boxes.forEach((box) => {
+        observer.observe(box);
+    });
+});
