@@ -5994,7 +5994,7 @@ footer {
         overflow-y: auto;
     }
     #titulo_principal {
-        font-size: 25px !important;
+        font-size: 25px;
     }
 
     #whatsapp-icon img {
@@ -6031,7 +6031,7 @@ footer {
     }
 
     #titulo_principal {
-        font-size: 25px !important;
+        font-size: 25px;
     }
 
     .subtitulo_principal p {
