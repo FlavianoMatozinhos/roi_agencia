@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\ContatoEmail;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,6 +12,12 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+
+// routes/web.php
+
+
+
+Route::post('/enviar-email', [ContatoEmail::class, 'enviarEmail'])->name('enviar-email');
 
 Route::get('/', function () {
     return view('welcome');
