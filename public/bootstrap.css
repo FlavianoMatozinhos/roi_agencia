@@ -4621,6 +4621,22 @@ footer {
     margin: 2% 5%;
 }
 
+.img_footer {
+    font-size: 13px;
+}
+
+.servicos_footer h2,
+.contato_footer h2,
+.sobre_footer h2 {
+    font-size: 23px;
+}
+
+.servicos_footer a,
+.contato_footer a,
+.sobre_footer a {
+    font-size: 13px;
+}
+
 #valor {
     text-decoration: line-through;
 }

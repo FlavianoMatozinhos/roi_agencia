@@ -22,7 +22,7 @@
         <a class="navbar-brand" href="#">
           <img src="{{ asset('images/roi.png') }}" alt="" width="100" />
         </a>
-        <h5>Roi <b>Agencia</b></h5>
+        <h5><b>ROI</b>AGÊNCIA</h5>
         <button
           class="navbar-toggler"
           type="button"
@@ -68,7 +68,7 @@
                 </h1>
                 <div class="subtitulo_principal">
                   <p class="lead mb-4">
-                    Deixe com a gente todo aquele tempo gasto para administrar redes sociais e anuncios.
+                    Deixe com a gente todo aquele tempo gasto para administrar <br> redes sociais e anuncios.
                     Temos um time pronto para lhe ajudar.
                   </p>
                 </div>
@@ -97,22 +97,24 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 text-center">
-            <h1>Quem é a <b>ROI ?</b></h1>
-            <h3 id="titulo_sobre">Estamos neste mercado há 5 anos</h3>
+            <h1><b>Olá, somos a ROI</b></h1>
             <p class="fs-5">
-              Ter uma equipe selecionada a dedo para entregar o profissionalismo
-              que o mercado exige e que seu negócio precisa é o que faz a
-              diferença. Um serviço autêntico e comprometido em trabalhar lado a
-              lado com a marca,<b> gerando resultados pelo esforço e não com
-              “formulas magicas”.</b> <br><br>
-                  
-              <b>Esqueça agências robotizadas sem Feedback e sem a empatia</b>
-              necessária para atingir o lucro tão sonhado, com a ROI você trabalha
-              com profissionais dedicados em ofertar o melhor, da melhor forma para
-              quem procura ser o melhor!<br><br>
-
-              <b>Um verdadeiro time! Cada área e sua função com um membro da ROI
-              focado em você.</b>
+              <div class="testeee" style=" text-align: justify;
+              display: inline-block;
+              width: 31%;">
+                  Com 5 anos de experiencia no mercado, nossa
+                  equipe altamente selecionada garante o
+                  profissionalismo essencial para o seu negócio.
+                  Priorizamos um serviço autêntico, comprometido
+                  em colaborar estreitamente com sua marca para
+                  gerar resultados reais sem "formulas mágicas". 
+                  <br><br>
+                  <p class="second-part" style="text-align: center;">
+                    Conte com nosso time completo, onde cada área
+                    é liderada por um especialista da ROI focado nas
+                    suas necessidades.
+                  </p>
+              </div>
             </p>
           </div>
         </div>
@@ -125,7 +127,7 @@
       class="details position-relative my-6 overflow-hidden"
     >
       <div class="container position-relative z-3">
-        <div class="row">
+        <div class="row caixa_servicos">
           <div class="row justify-content-start">
                     <div class="col-4">
                         <div class="box">
@@ -361,7 +363,7 @@
       </div>
     </footer>
 
-    <div id="whatsapp-icon" onclick="window.location.href='https://api.whatsapp.com/send?phone=031975752849'">
+    <div id="whatsapp-icon" onclick="window.location.href='https://api.whatsapp.com/send?phone=077981308214'">
         <!-- You can replace the icon below with your own WhatsApp icon or an image -->
         <img src="{{ asset('images/whatsapp.png') }}" alt="">
     </div>
